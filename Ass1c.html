@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<style>
+	body{
+		background-image:url("bgimage.jpg");	
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+    	background-size: cover;
+    	margin-left: 120px;
+    	margin-right: 120px;
+    	margin-top: 80px;
+	}
+	ul {
+    	list-style-type: none;
+    	overflow: hidden;
+    	background-color: #6B8E23;
+		opacity: 0.5;
+    	top: 0;
+    	right: 0;
+    	left: 0;
+    	width: 80%;
+    	position: fixed;
+    	font-size: 30px;
+    	margin-top: 10px;
+    	margin-left: 120px;
+    	margin-right: 120px;
+	}
+	li {
+    	float: left;
+	}
+	li a {
+    	display: block;
+    	color: white;
+    	text-align: center;
+    	padding: 20px 20px;
+	}
+	li a:hover:not(.active) {
+    	background-color: #111;
+	}
+
+	.active {
+    	background-color: #4CAF50;
+	}
+	h1{
+		text-align: center;
+		font-size: 45px;
+		color: #A52A2A;
+	}
+	.Info{
+		margin: auto;
+		border: 10px solid salmon;
+		padding: 10px;
+    	bottom: 0;
+    	background-image: url("call.jpg");
+    	background-size:100% 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.overlay {
+  		position: fixed;
+  		height: 50px;
+  		width: 300px;
+  		opacity: 0;
+  		transition: 0.5s ease;
+  		background-color: #008CBA;
+	}
+	.Phone:hover .overlay {
+  		opacity: 1;
+	}
+	.text {
+  		position: absolute;
+  		top: 10%;
+  		left: 40%;
+  		text-align: center;
+  		font-size: 30px;
+	}
+</style>
+	<head>
+		<title>
+		CONTACT
+		</title>
+		<h1 class="name">
+			Ping me At
+		</h1>
+	</head>
+	<body>
+		<div class="navbar">
+		<ul>
+  			<li><a href="Ass1.html">Home</a></li>
+  			<li><a href="Ass1a.html">About</a></li>
+  			<li><a href="Ass1b.html">Interest</a></li>
+  			<li><a class="active" href="Ass1c.html">Contact</a></li>
+		</ul>	
+		</div>
+		<div class="Info">
+			<a class="Phone" href="#phonecall"><img src="contact.png" height="300" width="300">
+				<div class="overlay">
+   					<div class="text"><strong>9783950919</strong></div>
+  				</div>
+  			</a>
+			<a class="Fb" href="https://www.facebook.com/ankit.saurav.71"><img src="fb.png" height="300" width="300"></a>
+			<a class="Insta" href="https://www.instagram.com/ankit.saurabh.71/"><img src="insta.png" height="300" width="300""></a>
+		</div>
+	</body>

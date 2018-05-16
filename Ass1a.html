@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<style>
+	body{
+		background-image:url("bgimage.jpg");	
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+    	background-size: cover;
+    	margin-left: 120px;
+    	margin-right: 120px;
+    	margin-top: 80px;
+	}
+	ul {
+    	list-style-type: none;
+    	overflow: hidden;
+    	background-color: #6B8E23;
+		opacity: 0.5;
+    	top: 0;
+    	right: 0;
+    	left: 0;
+    	width: 80%;
+    	position: fixed;
+    	font-size: 30px;
+    	margin-top: 10px;
+    	margin-left: 120px;
+    	margin-right: 120px;
+	}
+	li {
+    	float: left;
+	}
+	li a {
+    	display: block;
+    	color: white;
+    	text-align: center;
+    	padding: 20px 20px;
+	}
+	li a:hover:not(.active) {
+    	background-color: #111;
+	}
+
+	.active {
+    	background-color: #4CAF50;
+	}
+	h1{
+		text-align: center;
+		font-size: 45px;
+		color: #A52A2A;
+	}
+	.Info{
+		margin: auto;
+		border: 10px solid salmon;
+		padding: 10px;
+    	bottom: 0;
+    	background-image: url("acads.jpg");
+    	background-size:100% 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	p{
+		font-style: italic;
+		font-family: sans-serif;
+		padding-top: 30px;
+		padding-left: 50px;
+		text-align: left;
+		font-size: 50px;
+		color: black;
+	}
+	.a{
+		animation-name: example1;
+		animation-duration: 12s;
+		animation-iteration-count: infinite;	
+	}
+	.b{
+		animation-name: example2;
+		animation-duration: 12s;
+		animation-iteration-count: infinite;	
+	}
+	.c{
+		animation-name: example3;
+		animation-duration: 12s;
+		animation-iteration-count: infinite;	
+	}
+	.d{
+		animation-name: example4;
+		animation-duration: 12s;
+		animation-iteration-count: infinite;	
+	}
+	.e{
+		animation-name: example5;
+		animation-duration: 12s;
+		animation-iteration-count: infinite;	
+	}
+	.f{
+		animation-name: example6;
+		animation-duration: 12s;
+		animation-iteration-count: infinite;	
+	}
+	@keyframes example1{
+		0%{opacity: 1;}
+		17%{opacity: 0;}
+	}
+	@keyframes example2{
+		0%{opacity: 0;}
+		17%{opacity: 1;}
+		33%{opacity: 0;}
+
+	}
+	@keyframes example3{
+		0%{opacity: 0;}
+		33%{opacity: 1;}
+		50%{opacity: 0;}
+	}
+	@keyframes example4{
+		0%{opacity: 0;}
+		50%{opacity: 1;}
+		67%{opacity: 0;}
+	}
+	@keyframes example5{
+		0%{opacity: 0;}
+		67%{opacity: 1;}
+		83%{opacity: 0;}
+	}
+	@keyframes example6{
+		0%{opacity: 0;}
+		83%{opacity: 1;}
+	}
+</style>
+	<head>
+		<title>
+		ABOUT
+		</title>
+		<h1 class="name">
+			Academics
+		</h1>
+	</head>
+	<body>
+		<div class="navbar">
+		<ul>
+  			<li><a href="Ass1.html">Home</a></li>
+  			<li><a class="active" href="Ass1a.html">About</a></li>
+  			<li><a href="Ass1b.html">Interest</a></li>
+  			<li><a href="Ass1c.html">Contact</a></li>
+		</ul>	
+		</div>
+		<p class="Info">
+			<span class="a"> Hey! I am Ankit Saurabh,</span> <br>
+			<span class="b">1st year undergraduate student of Department of Computer Science.</span><br>
+			<span class="c">I hail from Hazaribag, Jharkhand.</span><br>
+			<span class="d">I studied at St. Xavier's upto Std. 10th(2015) and</span><br>
+			<span class="e">intermediate at Munam Public School(2017).</span><br>
+			<span class="f">GPA in 1st sem: 9.48</span>
+		</p> 
+	</body>
